@@ -1,0 +1,51 @@
+body{
+    background-image: url("asuna-blue-archive-drawn-by-shengtian.jpg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+h1{
+    font-family: 'Homenaje', sans-serif;
+    text-align: center;
+}
+form{
+    width: 20px;
+    margin: auto;
+}
+fieldset{
+    width: 52em;
+    justify-content: center;
+    margin: auto;
+}
+div.gender{
+    width: 15em;
+    padding-bottom: 1em;
+}
+.touch{
+    width: 10em;
+    padding-top: 1em;
+}
+.pic{
+    width: 27em;
+    font-weight: bolder;
+    text-align: left;
+}
+input.imgChoose{
+    padding: 1em 1em 4em 1em;
+
+}
+div.formulary{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+label.foto{
+    margin: auto;
+    text-align: left;
+}
+.please{
+    margin: auto;
+}
+legend{
+    font-weight: bolder;
+}

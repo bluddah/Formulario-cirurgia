@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Formulário de aceitação para procedimento cirúrgico de remoção de queijo peniano coalhado</h1>
+    <fieldset>
+        <legend>Requerimentos necessários</legend>
+            <form action="script.js" autocomplete="off" method="post">
+                <div class="formulary">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" required placeholder="Insira seu nome">
+                </div>
+                <div class="ultimonome">
+                    <label for="lastName">Sobrenome:</label>
+                    <input type="text" name="lastName" id="lastName" required placeholder="Insira seu sobrenome">
+                </div>
+                <div class="gender">
+                    <label for="sex">Sexo:</label><br>
+                    Masculino<input type="checkbox" name="man" id="man">
+                    Feminino<input type="checkbox" name="woman" id="woman">
+                </div>
+                <div>
+                    <label for="age">Idade:</label>
+                    <input type="number" name="age" id="age" required placeholder="Insira sua idade">
+                </div>
+                <div>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="(XX)XXXXX-XXXX" pattern="^[0-9]{6}-[0-9]{4}$">
+                </div>
+                <div class="touch">
+                    <label for="mast">Você se importa de não receber anestesia?</label>
+                    <input type="range" name="mast" id="mast" min="0" max="20">
+                </div>
+                <div class="pic">
+                    <label for="foto"><p class="please">Por favor, nos envie uma foto do seu membro flácido, e também uma foto do mesmo enquanto rígido, para analisarmos a possibilidade da manifestação de qualquer anomalia que se apresente não-identificada durante a cirurgia.</p></label>
+                    <input class="imgChoose" type="file" name="foto" id="foto">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Enviar dados">
+                </div>
+            </form>
+    </fieldset>
+
+</body>
+</html>
